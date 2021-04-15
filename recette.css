@@ -1,0 +1,145 @@
+body {
+	background-color: #8BA1BB;
+	font-family: Arial;
+	margin: 0;
+	min-width: 500px;
+	
+}
+
+p.categorie {
+	background-color : black;
+	color: white;
+	display: inline-block;
+	padding: 8px 18px;
+	margin-top: 0;
+	margin-bottom : 0;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+div.categorie{
+	text-align: center;
+	margin-bottom: -15px;
+	margin-top: 60px;
+}
+
+div.contenu {
+	background-color: white;
+	margin: 0px 10% 80px 10%;
+	padding: 30px;
+	box-shadow: 20px 10px 10px gray;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+div.separateur{
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.description{
+	text-align: center;
+	max-width: 400px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+div.description{
+	text-align: center;
+}
+
+.image{
+	width: 100%;
+	max-height : 400px;
+	object-fit: cover;
+	min-height: 300px;
+}
+
+table.table_infos{
+	position: absolute;  
+	bottom:0;		
+	width: 100%;
+	color: white;
+	background-color: #6C829DC0;	
+	height: 80px;
+	text-align: center;
+}
+
+table.table_infos td{
+	font-size: 14px;
+	vertical-align: top;
+}
+
+table.table_infos th{
+	font-size: 14px;
+	vertical-align: bottom;
+	padding-bottom: 8px;
+}
+div.colonne1, div.colonne2{
+	width: 45%;
+	margin-top: 20px;
+}
+
+div.colonne1 h2, div.colonne2 h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	border-bottom: 4px solid #6C829D;
+	padding-bottom: 5px;
+}
+
+div.colonne1{
+	display: inline-block;
+}
+
+div.colonne2{
+	float: right;
+}
+
+div.liste_ingredients p{
+	text-align: center;
+	border: 1px solid #6C829D;
+	padding: 8px 0;
+	margin-top: 4px;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+table.prepa p.numeros{
+	background-color: #6C829D; 
+	color: white;				
+	width : 25px;				
+	height: 25px;				
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 4px;		
+	box-sizing: border-box;	
+	border-radius: 50%;		
+	margin: 0;		
+}
+
+table.prepa td{
+	vertical-align: top;
+}
+
+table.prepa td.prepa_etape{
+	font-size: 14px;
+	padding: 0 0 10px 10px;
+}
+	
+table.prepa tr{
+	height: 40px;
+}
+
+* {
+	overflow: auto
+}
+
