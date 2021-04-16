@@ -2,8 +2,6 @@ body {
 	background-color: #8BA1BB;
 	font-family: Arial;
 	margin: 0;
-	min-width: 500px;
-	
 }
 
 p.categorie {
@@ -20,13 +18,13 @@ p.categorie {
 div.categorie{
 	text-align: center;
 	margin-bottom: -15px;
-	margin-top: 60px;
+	margin-top: 20px;
 }
 
 div.contenu {
 	background-color: white;
-	margin: 0px 10% 80px 10%;
-	padding: 30px;
+	margin: 0px 5px 10px 5px;
+	padding: 15px;
 	box-shadow: 20px 10px 10px gray;
 }
 
@@ -68,12 +66,12 @@ table.table_infos{
 	width: 100%;
 	color: white;
 	background-color: #6C829DC0;	
-	height: 80px;
+	height: 50px;
 	text-align: center;
 }
 
 table.table_infos td{
-	font-size: 14px;
+	font-size: 12px;
 	vertical-align: top;
 }
 
@@ -82,8 +80,8 @@ table.table_infos th{
 	vertical-align: bottom;
 	padding-bottom: 8px;
 }
+
 div.colonne1, div.colonne2{
-	width: 45%;
 	margin-top: 20px;
 }
 
@@ -93,14 +91,6 @@ div.colonne1 h2, div.colonne2 h2{
 	font-size: 15px;
 	border-bottom: 4px solid #6C829D;
 	padding-bottom: 5px;
-}
-
-div.colonne1{
-	display: inline-block;
-}
-
-div.colonne2{
-	float: right;
 }
 
 div.liste_ingredients p{
@@ -141,5 +131,51 @@ table.prepa tr{
 
 * {
 	overflow: auto
+}
+
+/* Style pour les PC */
+
+@media only screen and (min-width: 768px){
+	
+	body{
+		min-width: 500px;
+	}
+	
+	div.categorie{
+		margin-top: 60px;
+	}
+
+	div.contenu{
+		margin: 0px 10% 80px 10%;
+		padding: 30px;
+		max-width: 650px;
+	}
+	
+	table.table_infos{	
+		height: 80px;
+	}
+	
+	table.table_infos td{
+		font-size: 14px;
+	}
+	
+	div.colonne1, div.colonne2{
+		width: 45%;
+	}
+
+	div.colonne1{
+		display: inline-block;
+	}
+
+	div.colonne2{
+		float: right;
+	}
+}
+
+@media only screen and (min-width: 900px){
+	div.contenu{
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
